@@ -158,13 +158,21 @@ body {
   line-height: 1.5;
 }
 
-/* 字體大小 */
-h1 {
-  font-style: 128px;
+.text-right {
+  text-align: right;
 }
 
-h2 {
+/* 字體大小 */
+.h1 {
+  font-size: 128px;
+}
+
+.h2 {
   font-size: 40px;
+}
+
+.h3 {
+  font-size: 64px;
 }
 
 .fs-1 {
@@ -188,6 +196,10 @@ h2 {
   color: #d1d1d1;
 }
 
+.text-white {
+  color: #ffffff;
+}
+
 .bg-black {
   background-color: black;
 }
@@ -209,6 +221,21 @@ h2 {
 .py-10 {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.mr-6 {
+  margin-right: 24px;
+}
+
+/* 按鈕 */
+.btn {
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+.btn-light {
+  background: white;
+  color: black;
 }
 
 /* header */
