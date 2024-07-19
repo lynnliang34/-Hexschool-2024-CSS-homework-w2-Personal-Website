@@ -183,3 +183,39 @@ h2 {
 .text-primary {
   color: #00ffa3;
 }
+
+.text-gray {
+  color: #d1d1d1;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+/* flex 設定 */
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* 間距設定 */
+.py-10 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* header */
+.nav-item {
+  transition: 1s;
+}
+
+.nav-item:hover {
+  color: white;
+}
