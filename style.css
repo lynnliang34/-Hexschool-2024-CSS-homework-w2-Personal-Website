@@ -217,8 +217,16 @@ body {
   align-items: center;
 }
 
+.align-items-star {
+  align-items: start;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
 }
 
 /* 間距設定 */
@@ -249,6 +257,10 @@ body {
   padding-bottom: 32px;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .mr-4 {
   margin-right: 16px;
 }
@@ -263,6 +275,14 @@ body {
 
 .mb-1 {
   margin-bottom: 4px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-7 {
+  margin-bottom: 28px;
 }
 
 .mb-8 {
@@ -286,10 +306,20 @@ body {
 }
 
 .btn-light:hover {
-  box-shadow: 0px 0px 16px 3px white;
+  box-shadow: 0px 0px 8px 3px white;
 }
 
-/* 寬度 */
+.btn-dark {
+  background: black;
+  color: white;
+  transition: 1s;
+}
+
+.btn-dark:hover {
+  box-shadow: 0px 0px 8px 3px black;
+}
+
+/* 寬度 (幾個Columns) */
 .w-3 {
   width: 306px;
 }
@@ -297,8 +327,13 @@ body {
 .w-5 {
   width: 526px;
 }
+
 .w-6 {
   width: 636px;
+}
+
+.w-7 {
+  width: 746px;
 }
 
 /* 邊框 */
