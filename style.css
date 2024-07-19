@@ -162,6 +162,10 @@ body {
   text-align: right;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* 字體大小 */
 .h1 {
   font-size: 128px;
